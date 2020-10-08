@@ -24,8 +24,13 @@ html, body {
     height:100%;
 }
 .h_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
     height: 100%;
-    width:100%;
+    width: 100%;
+    border: 0;
 }
 #stickyDiv{
 	position:fixed;
