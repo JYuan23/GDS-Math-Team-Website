@@ -1,1 +1,2 @@
-"# GDS-Math-Team-Website" 
+Website for the GDS math team
+
