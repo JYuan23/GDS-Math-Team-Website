@@ -13,8 +13,10 @@ body{
   align-items: center;
   background-color: #F6FCF1;
   background-size: cover;
+  height:100%;
+  width:100%;
 }
-html, body {
+html{
     height:100%;
     width:100%;
     margin:0;
