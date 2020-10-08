@@ -1,0 +1,144 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+#pages{
+  width:100%;
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6FCF1;
+  background-size: cover;
+}
+#stickyDiv{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:40px;
+	background-color:#F6FCF1;
+}
+
+tr{
+  margin: 0;
+  padding: 10px; 
+}
+tr td{
+  list-style: none;
+  margin: 0 20px;
+}
+tr td a{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+  
+  color: green;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+tr td a:hover{
+  opacity: 1;
+  filter: blur(0);
+}
+tr td a:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: lightgreen;
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+  z-index: -1;
+}
+tr  td a:hover:before{
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scaleX(1)
+}
+
+#myHeader { 
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  text-align: center;
+  color: green;
+  text-transform: uppercase;
+  
+} 
+@keyframes animate{
+    0%{
+        background-position: 0% 100%; 
+    } 
+    50%{
+        background-position: 100% 0%;
+    
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+    }
+.align-right{
+  float: right;
+  margin-left: 10px;
+    }
+.small{
+  width: 50px;
+  height: 50px;
+    }
+/*#MyDiv{
+  background-image: url("amazing%20abstract%20wallpapers-1.jpg");
+    }*/
+p{
+  color: white;
+  
+  padding-left: 50px;
+    }
+ul{
+  color: white;
+  
+    }
+td{
+  color:yellow;
+}
+
+a.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 3em;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+}
+a.button1:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+@media all and(max-width:30em){
+  a.button1{
+    display:block;
+    margin:0.4em auto;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-color: black;
+  margin: auto;
+}
+
+td {
+  margin-left: 100px;
+}
