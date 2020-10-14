@@ -168,6 +168,15 @@ tr  td a:hover:before{
 span.log{
   float: right;
 }
+#copyButton{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 24px;  
+  color: green;
+  transition: 0.5s;
+}
 #myHeader { 
   margin: 0;
   padding: 0;
@@ -185,5 +194,5 @@ span.log{
   width: 85%;
   margin: auto;
   background-color:white;
-  font-size:36px
+  font-size:24px
 }
