@@ -107,10 +107,10 @@ img {vertical-align: middle;}
   text-align: center;
 }
 body{
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  padding: auto;
+  justify-content: left;
+  align-items: left;
   background-color: #F6FCF1;
   background-size: cover;
 }
